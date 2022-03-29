@@ -1,0 +1,43 @@
+.menu{
+    width: 250px;
+    height: 100vh;
+    background-color: #15023a;
+    position: fixed;
+    top: 0;
+    right: -250px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ease;
+}
+
+.menu a{
+    text-decoration: none;
+    color : white;
+    font-size: 25px;
+    font-weight: 250;
+}
+
+.menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 60%;
+}
+
+.menu li{
+    margin-bottom: 20px;
+
+}
+
+.menu li a:hover{
+    font-weight: 350;
+}
+
+
+.active{
+    right: 0px;
+}
+

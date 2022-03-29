@@ -4,7 +4,7 @@
     background-color: #15023a;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 3;
     color: white;
 }
 
@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 .logo{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     text-decoration: none;
     color: white;

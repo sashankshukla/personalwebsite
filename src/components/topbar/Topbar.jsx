@@ -1,9 +1,9 @@
 import "./Topbar.css"
 import {GitHub, LinkedIn , Mail , Phone} from "@material-ui/icons"
 
-export default function Topbar(menuOpen , setMenuOpen) {
+export default function Topbar(props) {
   return (
-    <div className={"topbar " + (menuOpen && "active")}  id="topbar">
+    <div className={"topbar " + (props.menuOpen && "active")}  id="topbar">
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">Welcome!</a>
@@ -28,7 +28,7 @@ export default function Topbar(menuOpen , setMenuOpen) {
           </div>
         </div>
         <div className="right">
-          <div className="hamburger">
+          <div className="hamburger" onClick={() => props.setMenuOpen(!props.menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
             <span className="line3"></span>
