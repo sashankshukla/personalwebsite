@@ -8,29 +8,11 @@
     background-color: aqua;
     position: relative;
     top: 70px;
+    scroll-snap-type: y mandatory;
+    scrollbar-width: none; 
+    scroll-behavior: smooth;
 }
 
-.Intro{
-    width: 100vw;
-    height: (100vh - 70px);
-}
-
-.Portfolio{
-    width: 100vw;
-    height: (100vh - 70px);
-}
-
-.Skills{
-    width: 100vw;
-    height: (100vh - 70px);
-}
-
-.Work{
-    width: 100vw;
-    height: (100vh - 70px);
-}
-
-.Contact{
-    width: 100vw;
-    height: (100vh - 70px);
+::-webkit-scrollbar{
+    display: none;
 }
