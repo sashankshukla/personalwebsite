@@ -1,9 +1,9 @@
-import "./Skills.scss"
+import "./Skills.css"
 
 export default function Skills() {
   return (
-    <div>
-      
+    <div className="skills">
+        Skills
     </div>
   )
 }

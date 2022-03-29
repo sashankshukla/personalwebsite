@@ -1,0 +1,36 @@
+.App{
+    height: 100vh;
+}
+
+.sections{
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: aqua;
+    position: relative;
+    top: 70px;
+}
+
+.Intro{
+    width: 100vw;
+    height: (100vh - 70px);
+}
+
+.Portfolio{
+    width: 100vw;
+    height: (100vh - 70px);
+}
+
+.Skills{
+    width: 100vw;
+    height: (100vh - 70px);
+}
+
+.Work{
+    width: 100vw;
+    height: (100vh - 70px);
+}
+
+.Contact{
+    width: 100vw;
+    height: (100vh - 70px);
+}

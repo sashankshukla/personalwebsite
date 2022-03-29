@@ -1,9 +1,9 @@
-import "./Work.scss"
+import "./Work.css"
 
 export default function Work() {
   return (
-    <div>
-      
+    <div className="work">
+       Work
     </div>
   )
 }
