@@ -6,7 +6,6 @@
     top: 0;
     z-index: 3;
     color: #15023a;
-    border-bottom: 2px solid #15023a;
 }
 
 .wrapper{
@@ -22,6 +21,7 @@
     justify-content: space-between;
 }
 .itemContainer{
+    margin-top: 10px;
     display: flex;
     align-items: center;
     margin-left: 30px;
