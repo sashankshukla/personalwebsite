@@ -1,6 +1,17 @@
 .intro{
-    background-color: lightblue;
+   background-color: white;
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
+    display: flex;
 }
+
+.intro .left{
+    flex: 0.5;
+    background-color: #8dacfc;
+}
+
+.intro .right{
+    flex: 0.5;
+}
+
