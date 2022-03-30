@@ -4,7 +4,7 @@
     height: calc(100vh - 70px);
     scroll-snap-align: start;
     display: flex;
-    color: #15023a;;
+    color: #15023a;
 }
 
 .intro .left{
