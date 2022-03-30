@@ -1,11 +1,12 @@
 .topbar{
     width: 100%;
     height: 70px;
-    background-color: #15023a;
+    background-color: white;
     position: fixed;
     top: 0;
     z-index: 3;
-    color: white;
+    color: #15023a;
+    border-bottom: 2px solid #15023a;
 }
 
 .wrapper{
@@ -20,14 +21,6 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    font-size: 35px;
-    font-weight: 500;
-    text-decoration: none;
-    color: white;
-    margin-right: 40px;
-}
-
 .itemContainer{
     display: flex;
     align-items: center;
@@ -41,7 +34,7 @@
 
 .icon-link{
     text-decoration: none;
-    color:white;
+    color:#15023a;
 }
 
 
@@ -57,7 +50,7 @@
 .hamburger span{
     width: 100%;
     height: 3px;
-    background-color: white;
+    background-color:#15023a;
     transform-origin: left;
     transition: all 2s ease;
 }

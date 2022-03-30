@@ -1,7 +1,7 @@
 .menu{
     width: 250px;
     height: 100vh;
-    background-color: #15023a;
+    background-color: white;
     position: fixed;
     top: 0;
     right: -250px;
@@ -15,9 +15,9 @@
 
 .menu a{
     text-decoration: none;
-    color : white;
+    color : #15023a;
     font-size: 25px;
-    font-weight: 250;
+    font-weight: 300;
 }
 
 .menu ul{
@@ -33,7 +33,7 @@
 }
 
 .menu li a:hover{
-    font-weight: 350;
+    font-weight: 400;
 }
 
 
