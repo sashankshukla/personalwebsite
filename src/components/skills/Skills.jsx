@@ -9,24 +9,45 @@ export default function Skills() {
         <div className="wrapper">
          <div className="left">
            <div className="skill">
-             <img src="assets/reacticon.png" alt=""></img>
-             React
+           <i class="devicon-react-original-wordmark colored"></i>
            </div>
-           <div className="skill">C++</div>
-           <div className="skill">JavaScript</div>
-           <div className="skill">Data Structures</div>
+           <div className="skill">
+            <i class="devicon-cplusplus-plain-wordmark colored"></i>
+          </div>
+           <div className="skill">
+            <i class="devicon-javascript-plain colored"></i>
+          </div>
+           <div className="skill text">
+            <h3>Data Structures</h3>
+           </div>
          </div>
          <div className="middle">
-            <div className="skill">HTML</div>
-            <div className="skill">Java</div>
-            <div className="skill">CSS</div>
-            <div className="skill">Algorithms</div>
+            <div className="skill">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            </div>
+            <div className="skill">
+            <i class="devicon-java-plain-wordmark colored"></i>
+            </div>
+            <div className="skill">
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            </div>
+            <div className="skill text">
+              <h3>Algorithms</h3>
+            </div>
          </div>
          <div className="right">
-           <div className="skill">CSS</div>
-           <div className="skill">Python</div>
-           <div className="skill">C</div>
-           <div className="skill">Git</div>
+           <div className="skill">
+            <i class="devicon-mysql-plain-wordmark colored"></i>
+          </div>
+           <div className="skill">
+            <i class="devicon-python-plain-wordmark colored"></i>
+           </div>
+           <div className="skill">
+            <i class="devicon-c-plain-wordmark colored"></i>
+          </div>
+           <div className="skill">
+            <i class="devicon-git-plain-wordmark colored"></i>
+          </div>
          </div>
         </div>
     </div>
