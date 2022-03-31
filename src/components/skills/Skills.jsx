@@ -18,7 +18,7 @@ export default function Skills() {
             <i class="devicon-javascript-plain colored"></i>
           </div>
            <div className="skill text">
-            <h3>Data Structures</h3>
+            <p>Data Structures</p>
            </div>
          </div>
          <div className="middle">
@@ -32,18 +32,18 @@ export default function Skills() {
             <i class="devicon-css3-plain-wordmark colored"></i>
             </div>
             <div className="skill text">
-              <h3>Algorithms</h3>
+              <p>Algorithms</p>
             </div>
          </div>
          <div className="right">
            <div className="skill">
-            <i class="devicon-mysql-plain-wordmark colored"></i>
+           <i class="devicon-mysql-plain-wordmark"></i>
           </div>
            <div className="skill">
-            <i class="devicon-python-plain-wordmark colored"></i>
+            <i class="devicon-python-plain-wordmark colored python"></i>
            </div>
            <div className="skill">
-            <i class="devicon-c-plain-wordmark colored"></i>
+            <i class="devicon-c-plain-wordmark colored c"></i>
           </div>
            <div className="skill">
             <i class="devicon-git-plain-wordmark colored"></i>
