@@ -29,7 +29,7 @@ export default function Skills() {
             <i class="devicon-java-plain-wordmark colored"></i>
             </div>
             <div className="skill">
-            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored css"></i>
             </div>
             <div className="skill text">
               <p>Algorithms</p>
