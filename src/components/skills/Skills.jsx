@@ -23,7 +23,7 @@ export default function Skills() {
          </div>
          <div className="middle">
             <div className="skill">
-            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-html5-plain-wordmark colored html"></i>
             </div>
             <div className="skill">
             <i class="devicon-java-plain-wordmark colored"></i>
@@ -46,7 +46,7 @@ export default function Skills() {
             <i class="devicon-c-plain-wordmark colored c"></i>
           </div>
            <div className="skill">
-            <i class="devicon-git-plain-wordmark colored"></i>
+            <i class="devicon-git-plain-wordmark colored git"></i>
           </div>
          </div>
         </div>
