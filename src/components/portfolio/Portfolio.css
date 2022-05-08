@@ -1,6 +1,17 @@
 .portfolio{
     background-color: white;
     width: 100vw;
-    height: calc(100vh - 70px);
+    height: 100vh;
     scroll-snap-align: start;
+}
+
+
+.vertical-timeline-element-title{
+    font-weight: 300;
+    color: #255ff1;
+}
+
+.vertical-timeline-element-subtitle{
+   font-weight: 350;
+   color : rgb(82, 80, 80);
 }

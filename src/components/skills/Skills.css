@@ -73,13 +73,6 @@
     color: white;
 }
 
-.skill i:hover{
-    font-size: 75px;
-}
-
-.skills .text:hover{
-    font-size: 22px;
-}
 
 .skills .python{
     color: rgb(72, 233, 72);
