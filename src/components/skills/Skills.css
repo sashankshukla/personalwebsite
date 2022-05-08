@@ -12,8 +12,7 @@
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 20px;
-    background-color: #15023a;
-    border: 1px solid #15023a;
+    background-color: rgb(195, 192, 192);
     border-radius: 15px;
     overflow: hidden;
 }
@@ -26,6 +25,7 @@
 
 .skills h1{
     font-size: 50px;
+    font-weight: 300;
 }
 
 .skills .left{
@@ -60,7 +60,7 @@
     width: 60%;
     margin: 20px;
     justify-content: center;
-    color: white;
+    color: #15023a;
 }
 
 .skills .skill i{
@@ -70,18 +70,26 @@
 .skills .text{
     font-size: 20px;
     align-items: center;
-    color: white;
+    color: #15023a;
 }
 
 
 .skills .python{
-    color: rgb(72, 233, 72);
+    color: rgb(9, 175, 9);
 }
 
 .skills .c{
-    color: #8dacfc;
+    color: #5b88fa;
 }
 
 .skills .css{
     color: rgb(10, 85, 171);
+}
+
+.skills .react{
+    color : #12b3dc;
+}
+
+.skills .js{
+    color: #dcac11;
 }

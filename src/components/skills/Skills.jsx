@@ -9,13 +9,13 @@ export default function Skills() {
         <div className="wrapper">
          <div className="left">
            <div className="skill">
-           <i class="devicon-react-original-wordmark colored"></i>
+           <i class="devicon-react-original-wordmark colored react"></i>
            </div>
            <div className="skill">
             <i class="devicon-cplusplus-plain-wordmark colored"></i>
           </div>
            <div className="skill">
-            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-javascript-plain colored js"></i>
           </div>
            <div className="skill text">
             <p>Data Structures</p>
