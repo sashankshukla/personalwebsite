@@ -2,6 +2,10 @@ import "./Portfolio.css"
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import {BlurCircularOutlined} from "@material-ui/icons"
+import { FaJava, FaPython, Fa, FaHtml5, FaCss3, FaJs, FaPhp, FaCss3Alt} from 'react-icons/fa';
+import {AiOutlineConsoleSql} from 'react-icons/ai';
+import {SiRacket, SiReact} from 'react-icons/si';
+import {CgCPlusPlus} from 'react-icons/cg';
 
 
 export default function Portfolio() {
@@ -17,8 +21,9 @@ export default function Portfolio() {
         <h6>Jan. 2022 - present</h6>
         <h3 className="vertical-timeline-element-title">Competitive Programming</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
-          <h5>Member of the ACM (UBC Competitive Programming Club)</h5>
-          <h5>5th Place in the ICPC Regionals D2 (90+ teams) </h5>
+        <h2><FaPython className="python"/> <CgCPlusPlus className="c"/> </h2>
+        <h5>Member of the ACM (UBC Competitive Programming Club)</h5>
+        <h5>5th Place in the ICPC Regionals D2 (90+ teams) </h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
@@ -29,6 +34,7 @@ export default function Portfolio() {
         <h6>Sept. 2021 - present</h6>
         <h3 className="vertical-timeline-element-title">University of British Columbia</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
+        <h2><FaJava className="java"/> <SiRacket className="racket"/> <CgCPlusPlus className="c"/></h2>
         <h5>
           Finished my first year towards a degree in Computer Science
         </h5>
@@ -44,6 +50,7 @@ export default function Portfolio() {
         <h6>June 2021 - August 2021</h6>
         <h3 className="vertical-timeline-element-title">Web Development Intern - 3SR Consultancy</h3>
         <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
+        <h2><FaHtml5 className="html"/> <FaCss3Alt className="css"/> <FaPhp className="php"/></h2>
         <h5>Implemented POST method for client-server communication</h5>
         <h5>Wrote authentication code for client data</h5>
         <h5>Designed and developed the login and signup pages for the website.</h5>
@@ -58,6 +65,7 @@ export default function Portfolio() {
         <h6>Oct. 2019 - June 2021</h6>
         <h3 className="vertical-timeline-element-title">High School</h3>
         <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
+        <h2><FaJava className="java"/> <FaPython className="python"/> <AiOutlineConsoleSql className="sql"/></h2>
         <h5>
           Executive - Code Club 
         </h5>
