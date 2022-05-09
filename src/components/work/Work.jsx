@@ -1,4 +1,8 @@
 import "./Work.css"
+import { FaJava, FaPython, Fa, FaHtml5, FaJs, FaPhp, FaCss3Alt} from 'react-icons/fa';
+import {AiOutlineConsoleSql} from 'react-icons/ai';
+import {SiRacket, SiReact} from 'react-icons/si';
+import {CgCPlusPlus} from 'react-icons/cg';
 
 export default function Work() {
   const projects = [
