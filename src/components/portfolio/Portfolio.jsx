@@ -1,74 +1,68 @@
 import "./Portfolio.css"
-import { useState } from "react"; 
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {School , Work, DeveloperMode} from "@material-ui/icons"
+import {BlurCircularOutlined} from "@material-ui/icons"
 
 
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
-    <VerticalTimeline lineColor="#15023a" animate={true} contentStyle={{outerWidth:'10px'}}>
+    <VerticalTimeline lineColor="lightgray" animate={true}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#15023a'}}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date="2011 - present"
-        iconStyle={{ background: 'white', color: '#15023a' , border : '2px solid #15023a'}}
-        icon={<DeveloperMode/>}
+        iconStyle={{color: 'lightgray'}}
+        icon={<BlurCircularOutlined/>}
       >
+        <h6>Jan. 2022 - present</h6>
         <h3 className="vertical-timeline-element-title">Competitive Programming</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
-        <br></br>
-          <p>Member of the ACM (UBC Competitive Programming Club)</p>
-          <p>5th Place in the ICPC Regionals D2 (90+ teams) </p>
+          <h5>Member of the ACM (UBC Competitive Programming Club)</h5>
+          <h5>5th Place in the ICPC Regionals D2 (90+ teams) </h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white',  color: '#15023a'}}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date="2011 - present"
-        iconStyle={{ background: 'white', color: '#15023a' , border : '2px solid #15023a'}}
-        icon={<School />}
+        iconStyle={{color: 'lightgray'}}
+        icon={<BlurCircularOutlined />}
       >
+        <h6>Sept. 2021 - present</h6>
         <h3 className="vertical-timeline-element-title">University of British Columbia</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
-        <p>
+        <h5>
           Finished my first year towards a degree in Computer Science
-        </p>
-        <p>Coursework :  Data Structures & Algorithms, Software Construction, Program Design</p>
-        <p>4.0 GPA - Faculty of Science's Dean's Honour List</p>
+        </h5>
+        <h5>Coursework :  Data Structures & Algorithms, Software Construction, Program Design</h5>
+        <h5>4.0 GPA - Faculty of Science's Dean's Honour List</h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white',  color: '#15023a'}}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date="2011 - present"
-        iconStyle={{ background: 'white', color: '#15023a' , border : '2px solid #15023a'}}
-        icon={<Work />}
+        iconStyle={{color: 'lightgray'}}
+        icon={<BlurCircularOutlined/>}
       >
-        <h3 className="vertical-timeline-element-title">Web Development Intern - 3SR Consultancy Inc.</h3>
+        <h6>June 2021 - August 2021</h6>
+        <h3 className="vertical-timeline-element-title">Web Development Intern - 3SR Consultancy</h3>
         <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
-        <br></br>
-        <p>Worked on the development of an e-comerce watch website</p>
-        <p>Implemented POST method for client-server communication and authentication code for data</p>
-        <p>Designed and developed the login and signup pages for the website.</p>
+        <h5>Implemented POST method for client-server communication</h5>
+        <h5>Wrote authentication code for client data</h5>
+        <h5>Designed and developed the login and signup pages for the website.</h5>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white',  color: '#15023a'}}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-        date="2011 - present"
-        iconStyle={{ background: 'white', color: '#15023a' , border : '2px solid #15023a'}}
-        icon={<School/>}
+        contentArrowStyle={{background:"blue" }}
+        iconStyle={{ color: 'lightgray'}}
+        icon={<BlurCircularOutlined/>}
       >
+        <h6>Oct. 2019 - June 2021</h6>
         <h3 className="vertical-timeline-element-title">High School</h3>
         <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
-        <p>
+        <h5>
           Executive - Code Club 
-        </p>
-        <p>Distinction - CEMC Canadian Computing Competition (University of Waterloo)</p>
-        <p>Top 7% - CEMC Euclid Math Contest (University of Waterloo)</p>
+        </h5>
+        <h5>Distinction - Canadian Computing Competition (University of Waterloo)</h5>
+        <h5>Top 7% - CEMC Euclid Math Contest (University of Waterloo)</h5>
       </VerticalTimelineElement>
       
       

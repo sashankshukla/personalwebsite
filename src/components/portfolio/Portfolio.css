@@ -2,16 +2,33 @@
     background-color: white;
     width: 100vw;
     height: 100vh;
-    scroll-snap-align: start;
+    scroll-snap-align: end;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
+.vertical-timeline-element--work h6{
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: #052e94;
+}
+
+.vertical-timeline-element--work h5{
+    font-weight: 375;
+    font-size: 15px;
+    color: black;
+}
 .vertical-timeline-element-title{
-    font-weight: 300;
-    color: #255ff1;
+    font-weight: 400;
+    font-size: 22px;
+    color: #15023a;
 }
 
 .vertical-timeline-element-subtitle{
-   font-weight: 350;
-   color : rgb(82, 80, 80);
+   font-weight: 375;
+   font-size: 15px;
+   color: #527ae0;
+   padding-bottom: 10px;
 }
