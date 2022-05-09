@@ -11,7 +11,7 @@
 
 
 .project{
-    width: 500px;
+    width: 600px;
     margin-bottom: 40px;
     background-color: lightgray;
     border: 2px solid lightgray;
@@ -27,11 +27,11 @@
 }
 
 .css{
-    color: rgb(24, 100, 199);
+    color: rgb(4, 91, 204);
 }
 
 .js{
-    color: rgb(247, 189, 82);
+    color: rgb(247, 171, 30);
 }
 
 .java{
@@ -39,7 +39,7 @@
 }
 
 .react{
-    color:rgb(45, 182, 220);
+    color:rgb(4, 197, 251);
 }
 
 .sql{
@@ -85,9 +85,9 @@
 }
 
 .work .big{
-   font-size: 30px;
+   font-size: 50px;
    font-weight: 375;
-   margin-bottom: 10px;
+   margin-bottom: 30px;
 }
 
 
