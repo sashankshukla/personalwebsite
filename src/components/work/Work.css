@@ -1,6 +1,94 @@
 .work{
-    background-color: lightgreen;
+    background-color: white;
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+
+.project{
+    width: 500px;
+    margin-bottom: 40px;
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.html{
+    color: orangered;
+}
+
+.css{
+    color: rgb(24, 100, 199);
+}
+
+.js{
+    color: rgb(247, 189, 82);
+}
+
+.java{
+    color: red;
+}
+
+.react{
+    color:rgb(45, 182, 220);
+}
+
+.sql{
+    color: #15023a;
+}
+
+.tf{
+    color: black;
+}
+
+.junit{
+    color: green;
+}
+
+.work h2{
+    font-weight: 300;
+    color : #15023a;
+}
+
+.work p{
+   color: #15023a;
+   font-weight: 300;
+   margin-bottom: 10px;
+}
+
+.work button{
+    font-size: 24px;
+    background-color: lightgray;
+    color:#15023a;
+    border: 2px solid #15023a;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+.work button:hover {
+   font-weight: 400;
+}
+.work h1{
+    color:#15023a;
+    font-size: 30px;
+    font-weight: 375;
+    margin-bottom: 10px;
+}
+
+.work .big{
+   font-size: 30px;
+   font-weight: 375;
+   margin-bottom: 10px;
+}
+
+
+

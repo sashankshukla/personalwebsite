@@ -7,7 +7,7 @@ import {FiCircle} from 'react-icons/fi';
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
-    <VerticalTimeline lineColor="lightgray" animate={true}>
+    <VerticalTimeline lineColor="lightgray" animate={false}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
         contentStyle={{ background: 'white', color: '#15023a'}}
@@ -30,9 +30,7 @@ export default function Portfolio() {
         <h6>Sept. 2021 - present</h6>
         <h3 className="vertical-timeline-element-title">University of British Columbia</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
-        <h5>
-          Finished my first year towards a degree in Computer Science
-        </h5>
+        <h5>Bachelor of Science - Computer Science</h5>
         <h5>Coursework :  Data Structures & Algorithms, Software Construction, Program Design</h5>
         <h5>4.0 GPA - Faculty of Science's Dean's Honour List</h5>
       </VerticalTimelineElement>
