@@ -1,9 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Skills from "./components/skills/Skills";
-import Contact from "./components/contact/Contact";
 import Work from "./components/work/Work";
 import Portfolio from "./components/portfolio/Portfolio";
-import Portfolio2 from "./components/portfolio/Portfolio2";
 import Intro from "./components/intro/Intro";
 import Menu from "./components/menu/menu";
 import "./App.css"
