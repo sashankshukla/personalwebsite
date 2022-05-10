@@ -13,14 +13,16 @@ export default function Work() {
       description:
         "My personal website built using react, highlighting my current skills, personal projects and my portfolio.",
       link: "https://github.com/sashankshukla/personalwebsite",
+      app: " ",
     },
     {
       title: "Sign Language Translator",
       subtitle: "HTML CSS JS and Google Teachable Machine",
       icons:[<FaHtml5 className="html"/> , <FaCss3Alt className="css"/> , <FaJs className="js"/> , <SiTensorflow className="tf"/>],
       description:
-        "NWHacks submission. A tool that detects common signs of the American Sign Language and translates them the corresponding English meaning. It was built using Google Teachable Machine, which makes use of Tensorflow.js to develop and train the Machine Learning model.",
+        "NWHacks 2022. A tool that detects common signs of the American Sign Language and translates them the corresponding English meaning. It was built using Google Teachable Machine, which makes use of Tensorflow.js to develop and train the Machine Learning model.",
       link: "https://github.com/sashankshukla/NWHacks",
+      app: " ",
     },
     {
       title: "Wallet App",
@@ -29,6 +31,7 @@ export default function Work() {
       description:
         "A Java desktop application for my CPSC 210(Software Construction) final project, made using Java's Swing library. This app allows you to add credit and debit cards to a digital wallet, perform secure transactions, and view card details.",
       link: "https://github.com/sashankshukla/WalletApp",
+      app: " ",
     },
     {
       title: "UBC GPA Calculator",
@@ -37,7 +40,7 @@ export default function Work() {
       description:
         "A chrome extension that converts 100 point scale course grades into a weighted UBC 4.0 scale GPA, This extension has been published to the chrome web store and can be found here.",
       link: "https://github.com/sashankshukla/ubcgpacalc",
-      extralink : " ",
+      app: "https://chrome.google.com/webstore/detail/ubc-gpa-calculator/gdjfommoaljkaonldkjifkdhhkbccgcg?hl=en",
     },
     {
       title: "Airline Reservation System",
@@ -46,20 +49,29 @@ export default function Work() {
       description:
         "A menu-driven program that mimics a small-scale airline booking software. The program makes use of an SQL database to store and retrieve flight and passenger information.",
       link: "https://github.com/sashankshukla/airlinereservationsystem",
+      app: " ",
     }
   ];
   return (
     <div className="work" id="work">
       <div className="projects">
-      <div className="top"><h1 className="big">Projects</h1></div>
+      <div className="top">
+        <h1 className="big">Projects</h1>
+        <h2 className="big2">These are some of my favorite projects that I have built!</h2>
+        </div>
        {projects.map((project) => (
            <div className="project">
               <h2>{project.title}</h2>
               <h1>{project.icons}</h1>
               <p>{project.description}</p>
+              <div className="button-div">
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.link}>
                     <button>Source Code</button>
               </a>
+              <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.app}>
+                    <button>Open App</button>
+              </a>
+              </div>
            </div>
        ))}
       </div>

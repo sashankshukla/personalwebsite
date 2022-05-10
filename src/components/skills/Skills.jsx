@@ -5,6 +5,7 @@ export default function Skills() {
     <div className="skills" id="skills">
         <div className="top">
          <h1>Skills</h1>
+         <h2>Currently in the process of learning Node.js, Flutter, Firebase, MongoDB, and Flask</h2>
         </div>
         <div className="wrapper">
          <div className="left">

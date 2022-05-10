@@ -9,6 +9,7 @@
     padding-bottom: 75px;
 }
 
+
 .skills .wrapper{
     margin-right: 100px;
     margin-left: 100px;
@@ -17,16 +18,23 @@
     border-radius: 15px;
     overflow: hidden;
 }
+
 .skills .top{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1%;
+    margin-bottom: 18px;
 }
 
 .skills h1{
     font-size: 50px;
     font-weight: 300;
+}
+
+.skills h2{
+    font-weight: 300;
+    font-size: 26px;
 }
 
 .skills .left{
@@ -87,6 +95,7 @@
     color: rgb(10, 85, 171);
 }
 
+
 .skills .git{
     color: rgb(152, 44, 152);
 }
@@ -95,5 +104,5 @@
 }
 
 .skills .js{
-    color: rgb(212, 189, 8);
+    color: rgb(222, 180, 13);
 }
