@@ -106,4 +106,29 @@
 }
 
 
+@media only screen and (max-width : 800px) {
+    .work .big{
+        font-size: 35px;
+    }
+    .work .big2{
+        font-size: 20px;
+    }
+    .project{
+        width : 400px;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .work .big{
+        font-size: 27px;
+    }
+    .work .big2{
+        font-size: 15px;
+    }
+    .project{
+        width : 300px;
+    }
+}
+
+
 

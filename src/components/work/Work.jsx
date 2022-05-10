@@ -45,7 +45,7 @@ export default function Work() {
         "A chrome extension that converts 100 point scale course grades into a weighted UBC 4.0 scale GPA, This extension has been published to the chrome web store and can be found here.",
       link: "https://github.com/sashankshukla/ubcgpacalc",
       app: "https://chrome.google.com/webstore/detail/ubc-gpa-calculator/gdjfommoaljkaonldkjifkdhhkbccgcg?hl=en",
-      buttontext: "Download Extension",
+      buttontext: "Download",
     },
     {
       title: "Airline Reservation System",

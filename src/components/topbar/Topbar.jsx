@@ -21,8 +21,8 @@ export default function Topbar(props) {
               <Mail className="icon"/>
               </a>
           </div>
-          <div className="itemContainer">
-               <LocationOn />
+          <div className="itemContainer location">
+               <LocationOn className="icon"/>
                <span>Vancouver, BC</span>
           </div>
         </div>

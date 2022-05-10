@@ -16,6 +16,8 @@
     margin-bottom: 20px;
     background-color: rgba(241, 240, 240, 0.995);
     border-radius: 15px;
+    display: flex;
+    flex-direction: row;
     overflow: hidden;
 }
 
@@ -110,3 +112,68 @@
 .skills .js{
     color: rgb(222, 180, 13);
 }
+
+@media only screen and (max-width: 860px) {
+   .skills .text{
+       font-size: 15px;
+   }
+   .skills .test{
+       font-size: 17px;
+   }
+  }
+
+  @media only screen and (max-width: 670px) {
+    .skills .skill i{
+         font-size: 50px;
+    }
+
+    .skills .text{
+        font-size: 8px;
+    }
+
+    .skills h1{
+        font-size: 30px;
+    }
+
+    .skills .test{
+        font-size: 12px;
+    }
+   }
+
+
+   @media only screen and (max-width: 440px) {
+    .skills h1{
+        font-size: 25px;
+    }
+
+    .skills .test{
+        font-size: 10px;
+    }
+   }
+
+   @media only screen and (max-width: 560px){
+      .skills .wrapper{
+          width: 50%;
+          overflow: visible;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .skills .skill{
+          overflow: hidden;
+      }
+      .skills .text{
+          font-size: 12px;
+      }
+   }
+
+   @media only screen and (max-width: 370px) {
+    .skills h1{
+        font-size: 24px;
+    }
+
+    .skills .test{
+        font-size: 9px;
+    }
+   }
