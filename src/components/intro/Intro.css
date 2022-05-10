@@ -31,6 +31,7 @@
 .intro .right{
     flex: 0.5;
     position: relative;
+    overflow: hidden;
 }
 
 .intro .right .wrapper{

@@ -1,5 +1,5 @@
 import "./Topbar.css"
-import {GitHub, LinkedIn , Mail , Phone} from "@material-ui/icons"
+import {GitHub, LinkedIn , Mail , LocationOn} from "@material-ui/icons"
 
 export default function Topbar(props) {
   return (
@@ -22,8 +22,8 @@ export default function Topbar(props) {
               </a>
           </div>
           <div className="itemContainer">
-              <Phone className="icon"/>
-              <span>(437) 777-2712</span>
+               <LocationOn />
+               <span>Vancouver, BC</span>
           </div>
         </div>
         <div className="right">

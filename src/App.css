@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+::selection {
+    background: yellow;
+  }
+
 .sections{
     width: 100%;
     height: calc(100vh - 70px);
@@ -16,3 +20,4 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
