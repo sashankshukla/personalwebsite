@@ -13,8 +13,8 @@
 .project{
     width: 600px;
     margin-bottom: 40px;
-    background-color: lightgray;
-    border: 2px solid lightgray;
+    box-shadow: 0 4px 8px 0 #15023a;
+    border: 1px solid #15023a;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -67,8 +67,8 @@
 
 .work button{
     font-size: 24px;
-    background-color: lightgray;
-    color:#15023a;
+    background-color: white;
+    color: #15023a;
     border: 2px solid #15023a;
     font-weight: 300;
     margin-bottom: 25px;
