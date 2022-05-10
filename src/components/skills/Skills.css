@@ -14,7 +14,7 @@
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 20px;
-    background-color: rgb(227, 225, 225);
+    background-color: rgba(241, 240, 240, 0.995);
     border-radius: 15px;
     overflow: hidden;
 }
@@ -30,6 +30,7 @@
 .skills h1{
     font-size: 50px;
     font-weight: 300;
+    margin-bottom: 10px;
 }
 
 .skills .test{
@@ -102,7 +103,7 @@
     color: rgb(152, 44, 152);
 }
 .skills .react{
-    color : #12b3dc;
+    color : #09c7f7;
 }
 
 .skills .js{

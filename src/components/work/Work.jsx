@@ -2,6 +2,7 @@ import "./Work.css"
 import { FaJava, FaPython, FaHtml5, FaJs, FaPhp, FaCss3Alt} from 'react-icons/fa';
 import {AiOutlineConsoleSql} from 'react-icons/ai';
 import {SiReact, SiTensorflow} from 'react-icons/si';
+import { GitHub } from "@material-ui/icons";
 
 
 export default function Work() {
@@ -62,7 +63,7 @@ export default function Work() {
       <div className="projects">
       <div className="top">
         <h1 className="big">Projects</h1>
-        <h2 className="big2">These are some of my favorite projects that I have built!</h2>
+        <h2 className="big2">These are some of my favorite personal projects!</h2>
         </div>
        {projects.map((project) => (
            <div className="project">
@@ -71,7 +72,7 @@ export default function Work() {
               <p>{project.description}</p>
               <div className="button-div">
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.link}>
-                    <button>Source Code</button>
+                    <button><GitHub/> Code</button>
               </a>
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.app}>
                     <button>{project.buttontext}</button>
