@@ -14,6 +14,7 @@ export default function Work() {
         "My personal website built using react, highlighting my current skills, personal projects and my portfolio.",
       link: "https://github.com/sashankshukla/personalwebsite",
       app: " ",
+      buttontext: "Open Website",
     },
     {
       title: "Sign Language Translator",
@@ -23,6 +24,7 @@ export default function Work() {
         "NWHacks 2022. A tool that detects common signs of the American Sign Language and translates them the corresponding English meaning. It was built using Google Teachable Machine, which makes use of Tensorflow.js to develop and train the Machine Learning model.",
       link: "https://github.com/sashankshukla/NWHacks",
       app: " ",
+      buttontext: "Open App",
     },
     {
       title: "Wallet App",
@@ -32,6 +34,7 @@ export default function Work() {
         "A Java desktop application for my CPSC 210(Software Construction) final project, made using Java's Swing library. This app allows you to add credit and debit cards to a digital wallet, perform secure transactions, and view card details.",
       link: "https://github.com/sashankshukla/WalletApp",
       app: " ",
+      buttontext: "Open App",
     },
     {
       title: "UBC GPA Calculator",
@@ -41,6 +44,7 @@ export default function Work() {
         "A chrome extension that converts 100 point scale course grades into a weighted UBC 4.0 scale GPA, This extension has been published to the chrome web store and can be found here.",
       link: "https://github.com/sashankshukla/ubcgpacalc",
       app: "https://chrome.google.com/webstore/detail/ubc-gpa-calculator/gdjfommoaljkaonldkjifkdhhkbccgcg?hl=en",
+      buttontext: "Download Extension",
     },
     {
       title: "Airline Reservation System",
@@ -50,6 +54,7 @@ export default function Work() {
         "A menu-driven program that mimics a small-scale airline booking software. The program makes use of an SQL database to store and retrieve flight and passenger information.",
       link: "https://github.com/sashankshukla/airlinereservationsystem",
       app: " ",
+      buttontext: "View App",
     }
   ];
   return (
@@ -69,7 +74,7 @@ export default function Work() {
                     <button>Source Code</button>
               </a>
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.app}>
-                    <button>Open App</button>
+                    <button>{project.buttontext}</button>
               </a>
               </div>
            </div>
