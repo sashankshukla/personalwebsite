@@ -150,30 +150,3 @@
         font-size: 10px;
     }
    }
-
-   @media only screen and (max-width: 560px){
-      .skills .wrapper{
-          width: 50%;
-          overflow: visible;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-      }
-      .skills .skill{
-          overflow: hidden;
-      }
-      .skills .text{
-          font-size: 12px;
-      }
-   }
-
-   @media only screen and (max-width: 370px) {
-    .skills h1{
-        font-size: 24px;
-    }
-
-    .skills .test{
-        font-size: 9px;
-    }
-   }
