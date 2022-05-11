@@ -5,10 +5,11 @@
     scroll-snap-align: start;
     display: flex;
     color: #15023a;
+    flex-direction: row;
 }
 
 .intro .left{
-    flex: 0.5;
+    flex: 0.4;
     background-color: white;
     overflow: hidden;
 }
@@ -29,9 +30,9 @@
 }
 
 .intro .right{
-    flex: 0.5;
+    flex: 0.6;
     position: relative;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .intro .right .wrapper{
@@ -40,6 +41,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .intro .right .wrapper h1{
@@ -69,4 +71,72 @@
 
 .intro .right img{
     width: 30px;
+}
+
+@media only screen and (max-width: 910px){
+    .intro .right .wrapper h1{
+        font-size: 50px;
+    }
+
+    .intro .right .wrapper h2{
+        font-size: 35px;
+    }
+
+    .intro .right .wrapper h3{
+        font-size: 25px;
+    }
+
+    .intro .right .wrapper span{
+        font-size: 25px;
+     }
+}
+
+@media only screen and (max-width : 740px) {
+    .intro{
+        flex-direction: column;
+    }
+
+    .intro .left{
+        flex: 0.65;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .intro .left .imgContainer{
+          height : 350px;
+          width: 350px;
+    }
+
+    .intro .right {
+        flex: 0.35;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .intro .right img{
+       visibility: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 430px){
+    .intro .right .wrapper h1{
+        font-size: 40px;
+    }
+
+    .intro .right .wrapper h2{
+        font-size: 30px;
+    }
+
+    .intro .right .wrapper h3{
+        font-size: 20px;
+    }
+
+    .intro .right .wrapper span{
+        font-size: 20px;
+     }
 }
