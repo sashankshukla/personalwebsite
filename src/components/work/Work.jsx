@@ -32,7 +32,7 @@ export default function Work() {
       subtitle: "Java JUnit",
       icons:[<FaJava className="java"/>],
       description:
-        "A Java desktop application for my CPSC 210(Software Construction) final project, made using Java's Swing library. This app allows you to add credit and debit cards to a digital wallet, perform secure transactions, and view card details.",
+        "A Java desktop application for my CPSC 210 final project, made using Java's Swing library. This app allows you to add credit and debit cards to a digital wallet, perform transactions, and view card details.",
       link: "https://github.com/sashankshukla/WalletApp",
       app: " ",
       buttontext: "Open App",
@@ -42,7 +42,7 @@ export default function Work() {
       subtitle: "HTML CSS JS",
       icons: [<FaHtml5 className="html"/> , <FaCss3Alt className="css"/> , <FaJs className="js"/>],
       description:
-        "A chrome extension that converts 100 point scale course grades into a weighted UBC 4.0 scale GPA, This extension has been published to the chrome web store and can be found here.",
+        "A chrome extension that converts 100 point scale course grades into a weighted UBC 4.0 scale GPA, This extension has been published to the chrome web store.",
       link: "https://github.com/sashankshukla/ubcgpacalc",
       app: "https://chrome.google.com/webstore/detail/ubc-gpa-calculator/gdjfommoaljkaonldkjifkdhhkbccgcg?hl=en",
       buttontext: "Download",
