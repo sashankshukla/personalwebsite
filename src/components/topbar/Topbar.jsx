@@ -12,7 +12,7 @@ export default function Topbar(props) {
               </a>
           </div>
           <div className="itemContainer">
-             <a target="_blank" rel="noopener noreferrer" className = "icon-link" href="https://www.linkedin.com/in/sashank-shukla-937376210/">
+             <a target="_blank" rel="noopener noreferrer" className = "icon-link" href="https://www.linkedin.com/in/sashank-shukla/">
               <LinkedIn className="icon"/>
              </a>
           </div>
