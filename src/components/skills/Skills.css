@@ -80,11 +80,11 @@
 }
 
 .skills .skill i{
-    font-size: 70px;
+    font-size: 55px;
 }
 
 .skills .text{
-    font-size: 20px;
+    font-size: 17px;
     align-items: center;
     color: #15023a;
 }
@@ -112,6 +112,7 @@
 
 .skills .js{
     color: rgb(222, 180, 13);
+    font-size: 50px;
 }
 
 @media only screen and (max-width: 860px) {
