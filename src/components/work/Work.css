@@ -7,8 +7,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    overflow: visible;
-    scrollbar-width: none;
+    position: static;
 }
 
 ::-webkit-scrollbar{
@@ -78,7 +77,7 @@
 }
 
 .work button{
-    font-size: 24px;
+    font-size: 20px;
     background-color: white;
     color: #15023a;
     border: 2px solid #15023a;
@@ -92,13 +91,13 @@
 }
 .work h1{
     color:#15023a;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 375;
     margin-bottom: 10px;
 }
 
 .work .big{
-   font-size: 50px;
+   font-size: 40px;
    font-weight: 375;
    margin-bottom: 10px;
 }
