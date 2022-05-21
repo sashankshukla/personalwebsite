@@ -7,10 +7,10 @@ import {FiCircle} from 'react-icons/fi';
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
-    <VerticalTimeline lineColor="lightgray" animate={false}>
+    <VerticalTimeline lineColor="#15023a" animate={false}>
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white', color: '#15023a'}}
+        contentStyle={{ background: '', color: '#15023a'}}
         iconStyle={{color: '#15023a'}}
         icon={<FiCircle/>}
       >

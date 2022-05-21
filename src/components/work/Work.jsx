@@ -12,7 +12,7 @@ export default function Work() {
       subtitle: "React",
       icons:[<SiReact className="react"/>, <FaJs className="js"/> , <FaCss3Alt className="css"/>],
       description:
-        "My personal website built using react, highlighting my current skills, personal projects and my portfolio.",
+        "This website. Built using react, highlights my skills, personal projects and my portfolio.",
       link: "https://github.com/sashankshukla/personalwebsite",
       app: " ",
       buttontext: "Open Website",
