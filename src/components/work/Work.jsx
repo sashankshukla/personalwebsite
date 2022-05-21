@@ -61,7 +61,6 @@ export default function Work() {
   ];
   return (
     <div className="work" id="work">
-      <div className="projects">
       <div className="top">
         <h1 className="big">Projects</h1>
         <h2 className="big2">These are some of my favorite personal projects!</h2>
@@ -81,7 +80,6 @@ export default function Work() {
               </div>
            </div>
        ))}
-      </div>
     </div>
   )
 }
