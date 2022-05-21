@@ -5,6 +5,7 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Intro from "./components/intro/Intro";
 import Menu from "./components/menu/menu";
 import "./App.css"
+import React from 'react';
 import {useState} from "react";
 
 function App() {
