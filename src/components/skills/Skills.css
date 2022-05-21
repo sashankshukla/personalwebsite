@@ -3,7 +3,7 @@
     color: #15023a;
     width: 100vw;
     height: calc(100vh - 70px);
-    scroll-snap-align: start;
+     /*scroll-snap-align: start;*/
     display: flex;
     flex-direction: column;
     padding-bottom: 75px;
