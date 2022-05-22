@@ -72,7 +72,7 @@ export default function Work() {
               <p>{project.description}</p>
               <div className="button-div">
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.link}>
-                    <button><GitHub/> Code</button>
+                    <button><GitHub className="icon"/> Code</button>
               </a>
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.app}>
                     <button>{project.buttontext}</button>

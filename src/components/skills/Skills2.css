@@ -7,6 +7,12 @@
     margin-bottom: 80px;
 }
 
+
+.skills2 img{
+    border-radius: 25px;
+    height: 275px;
+}
+
 .skills2 h1{
     font-size: 40px;
     font-weight: 300;
