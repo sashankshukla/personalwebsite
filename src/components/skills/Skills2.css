@@ -1,0 +1,15 @@
+
+.skills2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.skills2 h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
