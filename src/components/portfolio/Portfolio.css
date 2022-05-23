@@ -4,7 +4,7 @@
     height: calc(100vh - 70px);
      /*scroll-snap-align: start;*/
     padding-top: 100px;
-    padding-bottom: 525px;
+    padding-bottom: 475px;
     overflow: visible;
 }
 
@@ -34,3 +34,33 @@
    color: #527ae0;
    padding-bottom: 10px;
 }
+
+@media only screen and (max-width:850px){
+    .portfolio{
+      padding-bottom: 450px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .portfolio{
+      padding-bottom: 500px;
+    }
+}
+
+
+@media only screen and (max-width: 450px){
+    .skills2 h1{
+        font-size: 30px;
+    }
+    .portfolio{
+      padding-bottom: 525px;
+    }
+}
+
+
+@media only screen and (max-width: 375px){
+    .portfolio{
+      padding-bottom: 600px;
+    }
+}
+
