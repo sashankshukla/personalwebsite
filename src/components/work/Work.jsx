@@ -1,5 +1,5 @@
 import "./Work.css"
-import { FaJava, FaPython, FaHtml5, FaJs, FaPhp, FaCss3Alt} from 'react-icons/fa';
+import { FaJava, FaHtml5, FaJs,FaCss3Alt} from 'react-icons/fa';
 import {AiOutlineConsoleSql} from 'react-icons/ai';
 import {SiReact, SiTensorflow} from 'react-icons/si';
 import { GitHub } from "@material-ui/icons";

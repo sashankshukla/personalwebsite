@@ -7,11 +7,11 @@ function Skills2() {
     <div className='skills2'>
       <div className="left">
         <h1>S</h1>
-        <h1>k</h1>
-        <h1>i</h1>
-        <h1>l</h1>
-        <h1>l</h1>
-        <h1>s</h1>
+        <h1>K</h1>
+        <h1>I</h1>
+        <h1>L</h1>
+        <h1>L</h1>
+        <h1>S</h1>
       </div>
     <div className="img_div">
     <img src={skill_image} alt="my skills"></img>
