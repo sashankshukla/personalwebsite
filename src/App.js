@@ -1,5 +1,4 @@
 import Topbar from "./components/topbar/Topbar";
-import Skills from "./components/skills/Skills";
 import Skills2 from "./components/skills/Skills2";
 import Work from "./components/work/Work";
 import Portfolio from "./components/portfolio/Portfolio";
