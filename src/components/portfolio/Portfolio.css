@@ -59,14 +59,14 @@
         font-size: 30px;
     }
     .portfolio{
-      padding-bottom: 300px;
+      padding-bottom: 350px;
     }
 }
 
 
 @media only screen and (max-width: 375px){
     .portfolio{
-      padding-bottom: 300px;
+      padding-bottom: 350px;
     }
 }
 
