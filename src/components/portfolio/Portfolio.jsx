@@ -19,6 +19,7 @@ export default function Portfolio() {
         <h3 className="vertical-timeline-element-title">Competitive Programming</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
         <h5>Member of the UBC Competitive Programming Club</h5>
+        <h5>Winner - UCLA CodeSprint 2022 D2 (80 teams)</h5>
         <h5>5th Place in the ICPC Regionals D2 (90+ teams) </h5>
       </VerticalTimelineElement>
 
@@ -43,10 +44,10 @@ export default function Portfolio() {
         icon={<FiCircle/>}
       >
         <h6>June 2021 - August 2021</h6>
-        <h3 className="vertical-timeline-element-title">Web Development Intern - 3SR Consultancy</h3>
+        <h3 className="vertical-timeline-element-title">Software Development Intern - 3SR Consultancy</h3>
         <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
         <h5>Was working on an e-commerce watch website</h5>
-        <h5>Designed and developed the login and signup pages for the website</h5>
+        <h5>Designed and developed the login and signup components for the website</h5>
         <h5>Implemented POST request in JavaScript and wrote user PHP authentication code</h5>
       </VerticalTimelineElement>
 
