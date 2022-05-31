@@ -8,7 +8,7 @@ import "./App.css"
 import React from 'react';
 import {useState} from "react";
 
-App = () => {
+export default function App(){
   const [menuOpen , setMenuOpen] = useState(false); 
   return (
     <div className="App">
@@ -24,4 +24,3 @@ App = () => {
   );
 }
 
-export default App;
