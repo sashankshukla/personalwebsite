@@ -8,7 +8,7 @@ import "./App.css"
 import React from 'react';
 import {useState} from "react";
 
-function App() {
+App = () => {
   const [menuOpen , setMenuOpen] = useState(false); 
   return (
     <div className="App">
