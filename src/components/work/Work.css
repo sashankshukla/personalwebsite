@@ -9,6 +9,10 @@
 }
 
 
+p{
+    font-size: 20px;
+}
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -31,6 +35,10 @@
     align-items: center;
     justify-content: center;
     flex-direction: row;
+}
+
+.icon-link{
+    font-size:5px;
 }
 
 .html{
@@ -77,13 +85,15 @@
 }
 
 .work button{
+    text-align: center;
+    display: inline-block;
     font-size: 18px;
     background-color: #15023a;
     color: whitesmoke;
     border: 1px solid #15023a;
     border-radius: 5px;
     font-weight: 300;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     margin-right: 15px;
     transition: all 0.75s ease;
 }
@@ -103,9 +113,17 @@
     padding-bottom: 5px;
 }
 
+.add-padding-other{
+    justify-content: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
 .work .big{
    font-size: 40px;
-   font-weight: 375;
+   font-weight: 300;
    margin-bottom: 10px;
 }
 
@@ -115,7 +133,7 @@
 
 .work .big2{
     color: #15023a;
-    font-size: 27px;
+    font-size: 30px;
     font-weight: 375;
     margin-bottom: 70px;
 }
@@ -127,10 +145,10 @@
         font-size: 35px;
     }
     .work .big2{
-        font-size: 20px;
+        font-size: 25px;
     }
     .project{
-        width : 400px;
+        width : 500px;
     }
 }
 
@@ -139,7 +157,7 @@
         font-size: 27px;
     }
     .work .big2{
-        font-size: 15px;
+        font-size: 20px;
     }
     .project{
         width : 300px;

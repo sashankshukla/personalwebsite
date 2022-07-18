@@ -73,7 +73,7 @@ export default function Work() {
               <p>{project.description}</p>
               <div className="button-div">
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.link}>
-                    <button><GitHub className="icon"/> Code</button>
+                    <button className="add-padding-other"><GitHub className="icon"/> Code</button>
               </a>
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.app}>
                     <button className='add-padding'>{project.buttontext}</button>
