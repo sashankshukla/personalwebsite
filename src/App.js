@@ -1,6 +1,7 @@
 import Topbar from "./components/topbar/Topbar";
 import Skills2 from "./components/skills/Skills2";
 import Work from "./components/work/Work";
+import T from './components/portfolio/Portfolio2'
 import Portfolio from "./components/portfolio/Portfolio";
 import Intro from "./components/intro/Intro";
 import Menu from "./components/menu/menu";
@@ -16,7 +17,7 @@ export default function App(){
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="sections">
           <Intro/>
-          <Portfolio/>
+          <T/>
           <Skills2/>
           <Work/>
         </div>

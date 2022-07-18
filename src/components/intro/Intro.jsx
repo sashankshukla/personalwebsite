@@ -8,7 +8,7 @@ export default function Intro() {
   useEffect(() => {
     init(textToChange.current , {
       showCursor: true,
-      strings: ["a Freshman at UBC" , "an aspiring Software Engineer" , "a Competitive Programmer"],
+      strings: ["a Sophomore at UBC" , "an aspiring Software Engineer" , "a Competitive Programmer"],
     })
   } , [])
   return (
@@ -24,9 +24,9 @@ export default function Intro() {
           <h1>Sashank Shukla</h1>
           <h3>I'm <span ref={textToChange}></span></h3>
         </div>
-        <a href="#portfolio">
-          <img src="assets/downarrow.png" alt="down arrow"></img>
-        </a>
+        {/* <a href="#portfolio">
+          <img className="down-arrow" src="assets/downarrow.png" alt="down arrow"></img>
+        </a> */}
       </div>
     </div>
   )

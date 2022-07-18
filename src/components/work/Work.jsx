@@ -1,13 +1,24 @@
 import "./Work.css"
-import { FaJava, FaHtml5, FaJs,FaCss3Alt} from 'react-icons/fa';
+import { FaJava, FaHtml5, FaJs,FaCss3Alt,FaTyp} from 'react-icons/fa';
 import {AiOutlineConsoleSql} from 'react-icons/ai';
-import {SiReact, SiTensorflow} from 'react-icons/si';
+import {SiReact, SiTensorflow,SiTypescript,SiFirebase} from 'react-icons/si';
 import { GitHub } from "@material-ui/icons";
 import React from 'react';
 
 
 export default function Work() {
   const projects = [
+    {
+      title: "ResTrack",
+      subtitle: "React Native, TypeScript, Firebase",
+      icons:[<SiReact className="react"/>, <SiTypescript className="ts"/> , <SiFirebase className="fb"/>],
+      description:
+      "iOS and Android App built using React Native. Enables immigrants/refugees to track their presence in Canada towards status renewals and citizenship"
+      ,
+      link: "https://github.com/sashankshukla/residency-track",
+      app: " ",
+      buttontext: "Open Website",
+    },
     {
       title: "Personal Portfolio",
       subtitle: "React",

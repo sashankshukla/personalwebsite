@@ -1,11 +1,11 @@
 .topbar{
-    background-color: white;
+    background-color: rgb(11,25,47);
     width: 100%;
     height: 70px;
     position: fixed;
     top: 0;
     z-index: 3;
-    color: #15023a;
+    color: #ccd6f6;
 }
 
 .wrapper{
@@ -34,8 +34,17 @@
 
 .icon-link{
     text-decoration: none;
-    color:#15023a;
+    color:#ccd6f6;
 }
+
+.icon-link:hover{
+    color:#4a9fef;
+}
+
+.c:hover{
+    color:#4a9fef;
+}
+
 
 
 .hamburger{
@@ -50,7 +59,7 @@
 .hamburger span{
     width: 100%;
     height: 3px;
-    background-color:#15023a;
+    background-color:#ccd6f6;
     transform-origin: left;
     transition: all 2s ease;
 }

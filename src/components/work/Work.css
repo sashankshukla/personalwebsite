@@ -1,5 +1,6 @@
 .work{
-    background-color: white;
+    background-color: #0b192f;
+    color: #ccd6f6;
     width: 100vw;
     height: calc(100vh - 70px);
     /*scroll-snap-align: start;*/
@@ -21,8 +22,8 @@ p{
     width: 750px;
     margin: 0 auto;
     margin-bottom: 40px;
-    /*box-shadow: 0 4px 8px 0 #15023a;
-    border-: 1px solid #15023a;
+    /*box-shadow: 0 4px 8px 0 #ccd6f6;
+    border-: 1px solid #ccd6f6;
     border-radius: 10px;*/
     display: flex;
     align-items: center;
@@ -38,7 +39,7 @@ p{
 }
 
 .icon-link{
-    font-size:5px;
+    font-size: 12px;
 }
 
 .html{
@@ -53,6 +54,14 @@ p{
     color: rgb(247, 171, 30);
 }
 
+.ts{
+    color: rgb(4, 91, 204);  
+}
+
+.fb{
+    color:  rgb(247, 171, 30);
+}
+
 .java{
     color: red;
 }
@@ -62,11 +71,11 @@ p{
 }
 
 .sql{
-    color: #15023a;
+    color: #ccd6f6;
 }
 
 .tf{
-    color: black;
+    color: #ccd6f6;
 }
 
 .junit{
@@ -75,11 +84,11 @@ p{
 
 .work h2{
     font-weight: 300;
-    color : #052c8d;
+    color : #ccd6f6;
 }
 
 .work p{
-   color: #15023a;
+   color: #8892b0;
    font-weight: 300;
    margin-bottom: 10px;
 }
@@ -88,9 +97,9 @@ p{
     text-align: center;
     display: inline-block;
     font-size: 18px;
-    background-color: #15023a;
-    color: whitesmoke;
-    border: 1px solid #15023a;
+    background-color:#0b192f;
+    color: #4a9fef;
+    border: 1px solid #4a9fef;
     border-radius: 5px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -99,10 +108,11 @@ p{
 }
 
 .work button:hover {
-   color: aquamarine;
+   color: #ccd6f6;
+   border: 1px solid #ccd6f6;
 }
 .work h1{
-    color:#15023a;
+    color:#ccd6f6;
     font-size: 27px;
     font-weight: 375;
     margin-bottom: 10px;
@@ -123,7 +133,8 @@ p{
 
 .work .big{
    font-size: 40px;
-   font-weight: 300;
+   color: #4a9fef;
+   font-weight: bold;
    margin-bottom: 10px;
 }
 
@@ -132,7 +143,7 @@ p{
 }
 
 .work .big2{
-    color: #15023a;
+    color: #ccd6f6;
     font-size: 30px;
     font-weight: 375;
     margin-bottom: 70px;

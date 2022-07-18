@@ -1,5 +1,5 @@
 .portfolio{
-    background-color: white;
+    background-color: rgb(11,25,47);
     width: 100vw;
     height: calc(100vh - 70px);
      /*scroll-snap-align: start;*/
@@ -14,24 +14,24 @@
     font-weight: 400;
     padding-bottom: 10px;
     font-size: 13px;
-    color: #052e94;
+    color: #0b192f;
 }
 
 .vertical-timeline-element--work h5{
     font-weight: 375;
     font-size: 15px;
-    color: black;
+    color: #0b192f;
 }
 .vertical-timeline-element-title{
     font-weight: 400;
     font-size: 18px;
-    color: #15023a;
+    color: #4a9fef;
 }
 
 .vertical-timeline-element-subtitle{
    font-weight: 375;
    font-size: 15px;
-   color: #527ae0;
+   color: #0b192f;
    padding-bottom: 10px;
 }
 

@@ -1,5 +1,6 @@
 
 .skills2{
+    color: #ccd6f6;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,6 +18,7 @@
 
 
 .skills2 img{
+    background-color: #0b192f;
     border-radius: 25px;
     height: 400px;
     width: 600px;
@@ -24,9 +26,10 @@
 
 .skills2 h1{
     font-size: 45px;
-    font-weight: 300;
+    font-weight: bold;
     margin-bottom: 10px;
     overflow: hidden;
+    color : #4a9fef;
 }
 
 @media only screen and (max-width:820px){

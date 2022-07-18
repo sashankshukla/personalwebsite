@@ -22,16 +22,16 @@ export default function Topbar(props) {
               <Mail className="icon"/>
               </a>
           </div>
-          <div className="itemContainer location">
-               <LocationOn className="icon"/>
+          <div className="itemContainer location c">
+               <LocationOn className="icon icon-link"/>
                <span>Vancouver, BC</span>
           </div>
         </div>
         <div className="right">
-          <div className="hamburger" onClick={() => props.setMenuOpen(!props.menuOpen)}>
+          <div className="hamburger c" onClick={() => props.setMenuOpen(!props.menuOpen)}>
             <span className="line1"></span>
             <span className="line2"></span>
-            <span className="line3"></span>
+            <span className="line3 "></span>
           </div>
         </div>
       </div>

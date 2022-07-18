@@ -1,7 +1,7 @@
 .menu{
     width: 250px;
     height: 100vh;
-    background-color: white;
+    background-color: rgb(11,25,47);
     position: fixed;
     top: 0;
     right: -250px;
@@ -11,12 +11,12 @@
     align-items: center;
     justify-content: center;
     transition: all 1s ease;
-    border-left: 1px solid #15023a;
+    border-left: 1px solid rgb(11,25,47);
 }
 
 .menu a{
     text-decoration: none;
-    color : #15023a;
+    color : #ccd6f6;
     font-size: 25px;
     font-weight: 300;
 }
@@ -35,10 +35,12 @@
 
 .menu li a:hover{
     font-weight: 400;
+    color: #4a9fef;
 }
 
 
 .active{
     right: 0px;
+    border-left: 1px solid #ccd6f6;
 }
 

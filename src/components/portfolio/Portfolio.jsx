@@ -8,26 +8,38 @@ import React from 'react';
 export default function Portfolio() {
   return (
     <div className="portfolio" id="portfolio">
-    <VerticalTimeline lineColor="#15023a" animate={true}>
+    <VerticalTimeline lineColor="#ccd6f6" animate={true}>
+
+    <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        contentStyle={{ background: '#0b192f', color: '#ccd6f6'}}
+        iconStyle={{color: '#0b192f'}}
+      >
+        <h6>June. 2022 - present</h6>
+        <h3 className="vertical-timeline-element-title">Web Developer - UBC Open Robotics</h3>
+        <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
+        <h5>Developed a modern React website utilizing TailwindCSS</h5>
+        <h5>Created responsive,reusable web-based UI components with improved functionality to reduce redundancy</h5>
+      </VerticalTimelineElement>
+
+
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: '', color: '#15023a'}}
-        iconStyle={{color: '#15023a'}}
-        icon={<FiCircle/>}
+        contentStyle={{ background: '#0b192f', color: '#ccd6f6'}}
+        iconStyle={{color: '#0b192f'}}
       >
         <h6>Jan. 2022 - present</h6>
         <h3 className="vertical-timeline-element-title">Competitive Programming</h3>
         <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
-        <h5>Member of the UBC Competitive Programming Club</h5>
-        <h5>Winner - UCLA CodeSprint 2022 D2 (80 teams)</h5>
-        <h5>5th Place in the ICPC Regionals D2 (90+ teams) </h5>
+        <h5>UBC Competitive Programming Club (ACM)</h5>
+        <h5>Winner - CodeSprint UCLA 2022 D2 (80+ teams)</h5>
+        <h5>5th Place - ICPC Regionals D2 (90+ teams) </h5>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white',  color: '#15023a'}}
-        iconStyle={{color: '#15023a'}}
-        icon={<FiCircle/>}
+        contentStyle={{ background: '#0b192f',  color: '#ccd6f6'}}
+        iconStyle={{color: '#0b192f'}}
       >
         <h6>Sept. 2021 - present</h6>
         <h3 className="vertical-timeline-element-title">University of British Columbia</h3>
@@ -39,32 +51,15 @@ export default function Portfolio() {
 
       <VerticalTimelineElement
         className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white',  color: '#15023a'}}
-        iconStyle={{color: '#15023a'}}
-        icon={<FiCircle/>}
+        contentStyle={{ background: '#ccd6f6',  color: '#0b192f'}}
+        iconStyle={{color:'#0b192f'}}
       >
         <h6>June 2021 - August 2021</h6>
         <h3 className="vertical-timeline-element-title">Software Development Intern - 3SR Consultancy</h3>
         <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
-        <h5>Was working on an e-commerce watch website</h5>
-        <h5>Designed and developed the login and signup components for the website</h5>
-        <h5>Implemented POST request in JavaScript and wrote user PHP authentication code</h5>
-      </VerticalTimelineElement>
-
-      <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        contentStyle={{ background: 'white',  color: '#15023a'}}
-        contentArrowStyle={{background:"blue" }}
-        iconStyle={{ color: '#15023a'}}
-        icon={<FiCircle/>}>
-        <h6>Oct. 2019 - June 2021</h6>
-        <h3 className="vertical-timeline-element-title">High School</h3>
-        <h4 className="vertical-timeline-element-subtitle">Mississauga, ON</h4>
-        <h5>  Executive - Code Club  </h5>
-        <h5>Distinction - CEMC Canadian Computing Competition</h5>
-        <h5>Top 8% - CEMC Euclid Math Contest</h5>
-      </VerticalTimelineElement>
-      
+        <h5>Designed and developed several dynamic interfaces using Bootstrap for an e-commerce watch website</h5>
+        <h5>Used XMLHttpRequests to allow for background data exchange and asynchronous web page updation</h5>
+      </VerticalTimelineElement>      
     </VerticalTimeline>
     </div>
   )
