@@ -60,10 +60,19 @@
 @media only screen and (max-width:475px){
     .skills2 h1{
         font-size: 35px;
-    }
-    
+    }  
     .skills2 img{
         height: 200px;
         width: 275px;
+    }
+}
+
+
+@media only screen and (max-width:380px){
+    .skills .left{
+        margin-top:75%;
+    }
+    .skills2 img{
+        margin-top: 20%;
     }
 }

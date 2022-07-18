@@ -98,6 +98,11 @@
     margin-bottom: 10px;
 }
 
+.add-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .work .big{
    font-size: 40px;
    font-weight: 375;

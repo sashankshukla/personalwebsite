@@ -59,6 +59,7 @@ export default function Work() {
       buttontext: "View App",
     }
   ];
+
   return (
     <div className="work" id="work">
       <div className="top">
@@ -75,7 +76,7 @@ export default function Work() {
                     <button><GitHub className="icon"/> Code</button>
               </a>
               <a target="_blank" rel="noopener noreferrer" className ="icon-link" href={project.app}>
-                    <button>{project.buttontext}</button>
+                    <button className='add-padding'>{project.buttontext}</button>
               </a>
               </div>
            </div>

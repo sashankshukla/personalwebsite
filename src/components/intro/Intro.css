@@ -92,15 +92,17 @@
 }
 
 
-@media only screen and (max-width: 1300px){
+
+
+@media only screen and (max-width: 2000px){
     .intro .left{
         justify-content: end;
         align-items: center;
     }
 
     .intro .left .imgContainer{
-        height: 400px;
-        width: 400px;
+        height: 425px;
+        width: 425px;
     }
 }
 
@@ -117,7 +119,7 @@
     }
 }
 
-@media only screen and (max-width : 1072px) {
+@media only screen and (max-width : 1199px) {
     .intro{
         flex-direction: column;
     }
